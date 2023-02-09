@@ -1,0 +1,40 @@
+{
+  "name": "VisualOS",
+  "displayName": "VisualOS",
+  "description": "The VSCode Theme that feels like you are using software designed by Apple.",
+  "version": "0.1.0",
+  "publisher": "Tikode",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#121212",
+    "theme": "dark"
+  },
+  "keywords": [
+    "vscode",
+    "dark",
+    "theme",
+    "apple",
+    "ios",
+    "macos",
+    "darktheme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tigranabelian1/VisualOS.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "VisualOS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/VisualOS-color-theme.json"
+      }
+    ]
+  }
+}
